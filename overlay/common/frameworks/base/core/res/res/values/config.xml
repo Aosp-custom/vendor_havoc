@@ -212,4 +212,7 @@
         <item>org.lineageos.jelly</item>
         <item>org.lineageos.recorder</item>
     </string-array>
+
+    <!-- Whether safe headphone volume is enabled or not. -->
+    <bool name="config_safe_media_volume_enabled">false</bool>
 </resources>
