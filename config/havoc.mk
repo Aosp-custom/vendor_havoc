@@ -16,6 +16,14 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     media.mediadrmservice.enable=true \
     persist.sys.disable_rescue=true \
 
+# Volume Styles
+PRODUCT_PACKAGES += \
+    VolumeStyle1Overlay \
+    VolumeStyle2Overlay \
+    VolumeStyle3Overlay \
+    VolumeStyle4Overlay \
+    VolumeStyle5Overlay
+
 # Setupwizard
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.setupwizard.enterprise_mode=1 \
