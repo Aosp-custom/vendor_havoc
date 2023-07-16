@@ -674,5 +674,10 @@ function fixup_common_out_dir() {
 export SKIP_ABI_CHECKS=true
 
 # Override host metadata to make builds more reproducible and avoid leaking info
-export BUILD_USERNAME=nobody
-export BUILD_HOSTNAME=android-build
+export BUILD_USERNAME=Ghost
+export BUILD_HOSTNAME=Ghost-build
+
+# Enable ThinLTO Source wide.
+echo "Building with ThinLTO."
+export GLOBAL_THINLTO=true
+export USE_THINLTO_CACHE=true
