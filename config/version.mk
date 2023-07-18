@@ -5,7 +5,7 @@ HAVOC_BUILD_DATE := $(shell date -u +%Y%m%d)
 
 # Build type
 ifndef HAVOC_BUILD_TYPE
-    HAVOC_BUILD_TYPE := Unofficial
+    HAVOC_BUILD_TYPE := Extended
 endif
 
 # Build variant
