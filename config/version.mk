@@ -1,11 +1,11 @@
 # Increase Havoc-OS Version with each major release.
-HAVOC_VERSION := 6.0
+HAVOC_VERSION := Chaos-Edition
 
 HAVOC_BUILD_DATE := $(shell date -u +%Y%m%d)
 
 # Build type
 ifndef HAVOC_BUILD_TYPE
-    HAVOC_BUILD_TYPE := Extended
+    HAVOC_BUILD_TYPE := Chaos
 endif
 
 # Build variant
@@ -16,7 +16,7 @@ else
 endif
 
 # Internal version
-LINEAGE_VERSION := Havoc-OS-v$(HAVOC_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)-$(HAVOC_BUILD_TYPE)-$(HAVOC_BUILD_VARIANT)
+LINEAGE_VERSION := Havoc-Extended-v$(HAVOC_VERSION)-$(shell date +%Y%m%d)-$(LINEAGE_BUILD)-$(HAVOC_BUILD_TYPE)-$(HAVOC_BUILD_VARIANT)
 
 # Display version
-LINEAGE_DISPLAY_VERSION := Havoc-OS-v$(HAVOC_VERSION)-$(LINEAGE_BUILD)
+LINEAGE_DISPLAY_VERSION := Havoc-Extended-v$(HAVOC_VERSION)-$(LINEAGE_BUILD)

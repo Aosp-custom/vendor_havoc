@@ -106,11 +106,11 @@ else
 endif
 
 # Pixel customization
-TARGET_SUPPORTS_GOOGLE_RECORDER ?= true
+TARGET_SUPPORTS_GOOGLE_RECORDER ?= false
 TARGET_INCLUDE_STOCK_ARCORE ?= false
 TARGET_INCLUDE_LIVE_WALLPAPERS ?= false
 TARGET_SUPPORTS_QUICK_TAP ?= true
-TARGET_SUPPORTS_CALL_RECORDING ?= true
+TARGET_SUPPORTS_CALL_RECORDING ?= false
 
 # GApps
 $(call inherit-product-if-exists, vendor/gms/products/gms.mk)

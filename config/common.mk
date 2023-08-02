@@ -2,7 +2,7 @@
 $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/lineage/config/havoc.mk)
 
-PRODUCT_BRAND ?= Havoc-OS
+PRODUCT_BRAND ?= Havoc-Extended
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
