@@ -24,6 +24,10 @@ PRODUCT_PACKAGES += \
     VolumeStyle4Overlay \
     VolumeStyle5Overlay
 
+# QS UI Style
+PRODUCT_PACKAGES += \
+    A11QSUI
+
 # Setupwizard
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     ro.setupwizard.enterprise_mode=1 \
